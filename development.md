@@ -1,0 +1,1 @@
+<!-- Este arquivo conterá informações auxiliares ao desenvolvimento -->
