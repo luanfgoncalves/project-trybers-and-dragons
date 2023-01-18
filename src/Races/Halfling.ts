@@ -3,8 +3,6 @@
 import Race from './Race';
 
 export default class Halfling extends Race {
-//   public name:string;
-//   public dexterity:number;
   static _createdRacesInstances = 0;
   private _maxLifePoints:number;
 
