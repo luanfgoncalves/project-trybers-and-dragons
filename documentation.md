@@ -25,3 +25,5 @@ Os personagens tem habilidades que são delimitadas conforme seus respectivos ar
 * <b>name:</b> Nome do ataque especial do arquetipo.
 * <b>special:</b> Potência do ataque especial.
 * <b>cost:</b> Custo energético do ataque.
+
+A quatro classes(arquetipos) que os jogadores podem escolher são: mago e necromancer, que usam mana, e, Ranger e Warrior, que usam stamina.
