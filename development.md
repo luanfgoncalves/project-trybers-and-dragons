@@ -31,3 +31,8 @@ npm test 10 - PVP.test
 npm test 11 - PVE.test
 npm test 12 - Dragon.test
 npm test 13 - Index.test
+
+<h3>Anotações</h3>
+
+* <b>Classe abstrata:</b> É um tipo de classe especial que não pode ser instanciada, apenas herdada.
+* <b>Atributos “private”:</b> São atributos acessíveis apenas para a própria classe, devem ser identificados com "_". Ex: "private _cost:number;"
