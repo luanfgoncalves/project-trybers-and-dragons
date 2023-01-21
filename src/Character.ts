@@ -24,7 +24,7 @@ export default class Character implements Fighter {
     this._race = new Elf(name, this._dexterity); // por default deve ser Elf
     this._archetype = new Mage(name);
     this._maxLifePoints = this._race.maxLifePoints / 2; // por padrão deve sair da raça
-    this._lifePoints = this._race.maxLifePoints;
+    this._lifePoints = this._maxLifePoints;
     this._strength = getRandomInt(1, 10);
     this._defense = getRandomInt(1, 10);
     this._energy = {
@@ -45,10 +45,6 @@ export default class Character implements Fighter {
     return this._archetype;
   }
 
-  get maxLifePoints():number {
-    return this._maxLifePoints;
-  }
-
   get lifePoints():number {
     return this._lifePoints;
   }
@@ -62,7 +58,10 @@ export default class Character implements Fighter {
   }
 
   get energy():Energy {
-    return this._energy;
+    return {
+      type_: this._energy.type_,
+      amount: this._energy.amount,
+    };
   }
 
   // implementação de Fighter
