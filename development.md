@@ -36,3 +36,4 @@ npm test 13 - Index.test
 
 * <b>Classe abstrata:</b> É um tipo de classe especial que não pode ser instanciada, apenas herdada.
 * <b>Atributos “private”:</b> São atributos acessíveis apenas para a própria classe, devem ser identificados com "_". Ex: "private _cost:number;"
+* <b>"implements":</b>In Typescript an implements clause can be used to verify that a class conforms to a specific interface.
